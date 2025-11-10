@@ -83,8 +83,6 @@ I believe every bug tells a story and every fix is a chance to grow stronger.
 </picture>
     <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-      
-  ![Snake animation](https://github.com/techgirli/techgirli/blob/output/github-contribution-grid-snake.gif)
 </p>
     
 ## Would you love to hear a joke...
