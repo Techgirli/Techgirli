@@ -1,19 +1,17 @@
 name: Generate Data
 
-# Run every 12 hours (on the hour) and allow manual runs
 on:
-  schedule:
+  schedule: # execute every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-# Ensure the runner has permission to push files
 permissions:
   contents: write
 
 jobs:
   build:
     name: Job to Update Data
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -21,26 +19,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Ensure dist directory exists
-        run: |
-          mkdir -p dist
-          ls -la
-
-      - name: Generate contribution-grid snake SVG
-        # Platane/snk generates the SVG of your contribution grid
+      - name: Generate Snake Animation
         uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: techgirli
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Show generated files (for debug)
-        run: |
-          echo "Listing dist contents:"
-          ls -la dist || true
-          echo "If the SVG is missing, the previous step failed to create it."
-
-      - name: Deploy dist to output branch (GitHub Pages-like)
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
