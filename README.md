@@ -26,6 +26,10 @@ Once upon a time, I was just curious about how technology really worked — what
 Today, I’m on a **transformative journey to becoming a DevSecOps Engineer** blending the art of development, the precision of operations, and the vigilance of security.
 
 ---
+** interests:**
+  - Cloud Security
+  - Python Automation
+  - Open Source & Artificial Intelligence tools
 
  **Right now, I’m learning and building with:**
 AWS • Docker • Kubernetes • Jenkins • Terraform • Linux • Python • Security automation tools 
