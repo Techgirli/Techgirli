@@ -13,7 +13,7 @@ permissions:
 jobs:
   build:
     name: Job to Update Data
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
