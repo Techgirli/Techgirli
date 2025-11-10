@@ -31,11 +31,21 @@ Today, I’m on a **transformative journey to becoming a DevSecOps Engineer** bl
   - Python Automation
   - Open Source & Artificial Intelligence tools
 
- **Right now, I’m learning and building with:**
-AWS • Docker • Kubernetes • Jenkins • Terraform • Linux • Python • Security automation tools 
+## Right now, I’m learning and building with:
+   - AWS
+   - Docker
+   - Kubernetes
+   - Jenkins
+   - Terraform
+   - Linux
+   - Python
+   - Security automation tools 
 
  **My current focus:**
-Creating hands-on DevSecOps projects that explore cloud security, CI/CD pipelines, vulnerability management, and automated defenses.
+ - Creating hands-on DevSecOps projects that explore cloud security,
+ - CI/CD pipelines,
+ - vulnerability management,
+ - and automated defenses.
 
 **My goal:**
 To build a world where developers ship faster *and* safer — proving that security isn’t a barrier to innovation, it’s the backbone of it.
