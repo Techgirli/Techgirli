@@ -11,9 +11,13 @@
     <img height="50" src="https://user-images.githubusercontent.com/46517096/166974271-91dfa250-d70b-4cb9-8707-f1bda1b708c3.png"/>
   </a>
 
-  <a href="https://devops-portfolio-orpin.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Vercel-000000?logo=vercel&logoColor=white" height="35"/>
-  </a>
+ <a href="https://devops-portfolio-orpin.vercel.app/" target="_blank">
+  <img
+    src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png"
+    height="35"
+    alt="Portfolio"
+  />
+</a>
 </p>
 ---
 
